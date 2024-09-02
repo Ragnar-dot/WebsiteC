@@ -75,7 +75,7 @@ nav a:hover {
 
 /* Container */
 .container {
-    max-width: 1200px;
+    max-width: 1900px;
     margin: 0 auto;
     padding: 0 1.5rem;
 }
@@ -84,13 +84,15 @@ nav a:hover {
 .hero {
     
     color: white;
-    padding: 6rem 1.5rem;
+    padding: 9rem 1.5rem;
     text-align: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.577);
-    border-radius: 10px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.322);
+    border-radius: 20px;
+    border-color: #ffffff;
     position: relative;
     overflow: hidden;
     background-image: url('cdemy_sign.png');
+    
     background-size: cover;
     background-position: center;
 }
@@ -224,16 +226,18 @@ footer p {
 
 
 .container {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: url('backgroundhome.png') no-repeat center center/cover;
+    background: url('code.webp') no-repeat center center/cover;
+    
+
 }
 
 .glass-card {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.034);
     border-radius: 15px;
     padding: 20px;
     margin: 10px;
@@ -241,11 +245,12 @@ footer p {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(5, 5, 5, 0.3);
 }
 
 .glass-card h3, .glass-card p, .glass-card a {
-    color: #fff;
+    color: #000000;
+    font-size: large;
 }
 
 .glass-card a {
